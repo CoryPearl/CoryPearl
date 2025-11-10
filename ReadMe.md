@@ -1,5 +1,5 @@
 # 💫 About Me:
-Learning new languages
+I am a current student at Drexel university studying Computer Science. Right now I am focused on learning as many languages as I can and building projects in them. I am most experianced with Html/Css/JavaScript and python, but have started making projects in Java, C and even some ASM.
 
 
 # 💻 Tech Stack:
