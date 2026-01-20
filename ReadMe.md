@@ -10,7 +10,7 @@ I am a current student at Drexel university studying Computer Science. Right now
 
 # 🔝 Top Repositories
 
-[![Repo 1](https://img.shields.io/badge/Repo1-View-blue?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo1)  
+[![CodeSync](https://img.shields.io/badge/Repo1-View-blue?style=for-the-badge&logo=github)](https://github.com/CoryPearl/codeSync)  
 [![Repo 2](https://img.shields.io/badge/Repo2-View-green?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo2)  
 [![Repo 3](https://img.shields.io/badge/Repo3-View-yellow?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo3)  
 [![Repo 4](https://img.shields.io/badge/Repo4-View-red?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo4)  
