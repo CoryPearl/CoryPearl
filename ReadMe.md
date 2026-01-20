@@ -8,4 +8,13 @@ I am a current student at Drexel university studying Computer Science. Right now
 ![](https://nirzak-streak-stats.vercel.app/?user=CoryPearl&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=CoryPearl&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
+# 🔝 Top Repositories
+
+[![Repo 1](https://img.shields.io/badge/Repo1-View-blue?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo1)  
+[![Repo 2](https://img.shields.io/badge/Repo2-View-green?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo2)  
+[![Repo 3](https://img.shields.io/badge/Repo3-View-yellow?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo3)  
+[![Repo 4](https://img.shields.io/badge/Repo4-View-red?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo4)  
+[![Repo 5](https://img.shields.io/badge/Repo5-View-purple?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo5)  
+[![Repo 6](https://img.shields.io/badge/Repo6-View-orange?style=for-the-badge&logo=github)](https://github.com/CoryPearl/Repo6)  
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
