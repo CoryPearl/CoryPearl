@@ -8,3 +8,4 @@ I am a current student at Drexel university studying Computer Science. Right now
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=CoryPearl&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=CoryPearl&theme=dark&hide_border=false&layout=donut)
