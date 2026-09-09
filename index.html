@@ -434,14 +434,20 @@
             <h2>Résumé.</h2>
             <p>Education, experience, projects, and technical skills.</p>
             <div class="resume-actions">
-              <a class="button-primary" href="./cory-pearl-resume.pdf" download
-                >Download PDF</a
-              ><a
-                class="text-link"
+              <button
+                class="button-primary resume-view"
+                id="resume-view"
+                type="button"
+                aria-haspopup="dialog"
+                aria-controls="resume-dialog"
+              >
+                View PDF
+              </button>
+              <a
+                class="button-secondary"
                 href="./cory-pearl-resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                >Open in a new tab</a
+                download
+                >Download PDF</a
               >
             </div>
           </div>
@@ -471,7 +477,9 @@
           type="button"
           aria-label="Close project details"
         >
-          ×
+          <svg class="close-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M6 6l12 12M18 6 6 18"></path>
+          </svg>
         </button>
         <div class="project-dialog-layout">
           <div class="project-dialog-media"></div>
@@ -489,7 +497,9 @@
         <div>
           <a href="./cory-pearl-resume.pdf" download>Download</a
           ><button id="resume-close" aria-label="Close résumé preview">
-            ×
+            <svg class="close-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18"></path>
+            </svg>
           </button>
         </div>
       </div>
@@ -581,9 +591,22 @@
         </div>
       </div>
       <div class="footer-bottom section-shell">
-        <span>© 2026 Cory Pearl</span><span>Philadelphia, PA</span>
+        <span>© 2026 Cory Pearl</span><span>Philadelphia, PA</span
+        ><a class="back-to-top" href="#top" aria-label="Back to top">
+          Back to top
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="m6 14 6-6 6 6"></path>
+          </svg>
+        </a>
       </div>
     </footer>
+    <div
+      class="copy-toast"
+      id="copy-toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
     <script src="./script.js" type="module"></script>
   </body>
 </html>

@@ -16,18 +16,41 @@ syncThemeLabel();
 
 const dialog = document.querySelector('#resume-dialog');
 const openResume = document.querySelector('#resume-open');
+const viewResume = document.querySelector('#resume-view');
 const closeResume = document.querySelector('#resume-close');
+let resumeTrigger;
 
-openResume.addEventListener('click', () => dialog.showModal());
+function showResume(event) {
+  resumeTrigger = event.currentTarget;
+  dialog.showModal();
+}
+
+openResume.addEventListener('click', showResume);
+viewResume.addEventListener('click', showResume);
 closeResume.addEventListener('click', () => dialog.close());
 dialog.addEventListener('click', (event) => {
   const rect = dialog.getBoundingClientRect();
   const inside = event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom;
   if (!inside) dialog.close();
 });
-dialog.addEventListener('close', () => openResume.focus());
+dialog.addEventListener('close', () => {
+  resumeTrigger?.focus();
+  resumeTrigger = undefined;
+});
 
 const copyButtons = document.querySelectorAll('.copy-contact');
+const copyToast = document.querySelector('#copy-toast');
+let toastTimer;
+
+function showCopyToast() {
+  clearTimeout(toastTimer);
+  copyToast.textContent = 'Copied to clipboard';
+  copyToast.classList.add('visible');
+  toastTimer = setTimeout(() => {
+    copyToast.classList.remove('visible');
+    copyToast.textContent = '';
+  }, 1800);
+}
 
 async function copyText(value) {
   if (navigator.clipboard && window.isSecureContext) {
@@ -55,6 +78,7 @@ copyButtons.forEach((button) => {
       clearTimeout(resetTimer);
       button.classList.add('copied');
       button.setAttribute('aria-label', 'Copied');
+      showCopyToast();
       resetTimer = setTimeout(() => {
         button.classList.remove('copied');
         button.setAttribute('aria-label', idleLabel);
