@@ -2,4 +2,4 @@
   <img src="dark_mode.svg" width="100%" style="height: auto;"/>
 </p>
 
-Portfolio: []()
+**Portfolio:** [https://corypearl.github.io/CoryPearl/](https://corypearl.github.io/CoryPearl/)
