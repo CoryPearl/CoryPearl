@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Cory Pearl is a Computer Science student at Drexel University building software, embedded systems, custom PCBs, and open-source hardware."
+    />
+    <meta
+      property="og:title"
+      content="Cory Pearl — software, hardware, embedded systems."
+    />
+    <meta
+      property="og:description"
+      content="Software, embedded systems, electronics, and projects made real."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://cory-pearl-portfolio.corypearl561.chatgpt.site"
+    />
+    <meta
+      property="og:image"
+      content="https://cory-pearl-portfolio.corypearl561.chatgpt.site/assets/og.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Cory Pearl — software, hardware, embedded systems."
+    />
+    <meta
+      name="twitter:description"
+      content="Software, embedded systems, electronics, and projects made real."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cory-pearl-portfolio.corypearl561.chatgpt.site/assets/og.png"
+    />
+    <link rel="icon" href="./assets/favicon.svg" />
+    <script>
+      try {
+        document.documentElement.classList.toggle(
+          'dark',
+          localStorage.getItem('cory-theme') !== 'light',
+        );
+      } catch (e) {
+        document.documentElement.classList.add('dark');
+      }
+    </script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Cory Pearl Dev</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Cory Pearl, back to top"
+        >Cory Pearl</a
+      >
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a><a href="#about">About</a
+        ><a href="#skills">Skills</a><a href="#resume">Résumé</a
+        ><a href="#contact">Contact</a>
+      </nav>
+      <button
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label="Switch to light mode"
+      >
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path
+            d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"
+          ></path></svg
+        ><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy">
+          <p class="location-line">
+            Computer Science student at Drexel University, based in
+            Philadelphia.
+          </p>
+          <h1>I build from bits to boards.</h1>
+          <p class="hero-intro">
+            I’m Cory Pearl. I make software, firmware, PCBs, and small hardware
+            projects, usually because I want to know how they work.
+          </p>
+          <div class="hero-actions">
+            <a class="button-primary" href="#work">See my projects</a
+            ><a class="button-secondary" href="mailto:cory.pearl99@gmail.com"
+              >Email me</a
+            >
+          </div>
+        </div>
+        <div
+          class="hero-visual"
+          aria-label="OpenCalc, Cory's current hardware project"
+        >
+          <div class="hero-image-wrap">
+            <img
+              src="./assets/opencalc-case.gif"
+              alt="OpenCalc enclosure rotating in a 3D render"
+            />
+          </div>
+          <div class="hero-caption">
+            <strong
+              >Currently Building
+              <span class="accent-text">OpenCalc</span></strong
+            ><em>&amp; learning FPGA</em>
+          </div>
+        </div>
+      </section>
+      <section class="section-shell work-section" id="work">
+        <div class="section-heading">
+          <h2>Selected projects.</h2>
+          <p>A few things I’ve designed, programmed, and tested.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div
+              class="project-media project-carousel"
+              aria-label="OpenCalc project images"
+            >
+              <div class="carousel-track">
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/open_calc_ui_calculator_demo.gif"
+                    alt="OpenCalc calculator interface demo"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain pcb-slide"
+                    src="./assets/opencalc_pcb_V5_full.png"
+                    alt="Front and back render of the OpenCalc V5 PCB"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/opencalc-case.gif"
+                    alt="Rotating 3D render of the OpenCalc enclosure"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-arrow carousel-prev"
+                type="button"
+                aria-label="Previous OpenCalc image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m15 18-6-6 6-6"></path>
+                </svg></button
+              ><button
+                class="carousel-arrow carousel-next"
+                type="button"
+                aria-label="Next OpenCalc image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 6 6 6-6 6"></path>
+                </svg>
+              </button>
+              <div
+                class="carousel-dots"
+                aria-label="Choose OpenCalc image"
+              ></div>
+            </div>
+            <div class="project-body">
+              <h3>OpenCalc</h3>
+              <h4>ESP32-S3 graphing calculator — in progress</h4>
+              <p>
+                I’m designing the PCB, enclosure, firmware, and interface for an
+                open-source graphing calculator. It has graphing, CAS,
+                Python-style scripting, games, USB-C, and a color display.
+              </p>
+              <ul class="tag-list">
+                <li>ESP32-S3</li>
+                <li>ESP-IDF</li>
+                <li>C/C++</li>
+                <li>KiCad</li>
+                <li>FreeCAD</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/CoryPearl/opencalc"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Source</a
+                ><a
+                  href="https://corypearl.github.io/opencalc/blog.html"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Build notes</a
+                ><a
+                  href="https://corypearl.github.io/opencalc/product-website/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Website</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div
+              class="project-media project-carousel"
+              aria-label="RaceTrace project images"
+            >
+              <div class="carousel-track">
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/racetrace_1.png"
+                    alt="RaceTrace two-dimensional track replay interface"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/racetrace_2.png"
+                    alt="RaceTrace three-dimensional track replay interface"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/racetrace_3.png"
+                    alt="RaceTrace Australian Grand Prix replay interface"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-arrow carousel-prev"
+                type="button"
+                aria-label="Previous RaceTrace image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m15 18-6-6 6-6"></path>
+                </svg></button
+              ><button
+                class="carousel-arrow carousel-next"
+                type="button"
+                aria-label="Next RaceTrace image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 6 6 6-6 6"></path>
+                </svg>
+              </button>
+              <div
+                class="carousel-dots"
+                aria-label="Choose RaceTrace image"
+              ></div>
+            </div>
+            <div class="project-body">
+              <h3>RaceTrace</h3>
+              <h4>F1 race replay in the browser</h4>
+              <p>
+                A browser-based Formula 1 replay and telemetry viewer built on
+                FastF1 data. Load a race weekend, scrub through time, and follow
+                each car’s timing, tyres, and track position in 3D.
+              </p>
+              <ul class="tag-list">
+                <li>FastAPI</li>
+                <li>JavaScript</li>
+                <li>FastF1</li>
+                <li>3D Web</li>
+                <li>Vercel</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/CoryPearl/racetrace"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Source</a
+                ><a
+                  href="https://racetrace-beta.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Try it</a
+                >
+              </div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div
+              class="project-media project-carousel"
+              aria-label="Flick It Philly project images"
+            >
+              <div class="carousel-track">
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/flick_1.PNG"
+                    alt="Flick It Philly camera and reporting screen"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/flick_2.PNG"
+                    alt="Flick It Philly reports map"
+                  />
+                </div>
+                <div class="media-slide">
+                  <img
+                    class="media-contain"
+                    src="./assets/flick_3.PNG"
+                    alt="Flick It Philly settings screen"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-arrow carousel-prev"
+                type="button"
+                aria-label="Previous Flick It Philly image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m15 18-6-6 6-6"></path>
+                </svg></button
+              ><button
+                class="carousel-arrow carousel-next"
+                type="button"
+                aria-label="Next Flick It Philly image"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m9 6 6 6-6 6"></path>
+                </svg>
+              </button>
+              <div
+                class="carousel-dots"
+                aria-label="Choose Flick It Philly image"
+              ></div>
+            </div>
+            <div class="project-body">
+              <h3>Flick It Philly</h3>
+              <h4>
+                A simpler way to submit Philly 311 reports built in 36 hours at
+                Philly Codefest
+              </h4>
+              <p>
+                My team built a mobile prototype that turns a photo or voice
+                description into a categorized, geotagged 311 report. It also
+                supports multiple languages and shows nearby reports on a map.
+              </p>
+              <ul class="tag-list">
+                <li>Expo</li>
+                <li>Gemini API</li>
+                <li>JavaScript</li>
+                <li>Geolocation</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://github.com/CoryPearl/flick-it-philly"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Source</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="about-band" id="about">
+        <div class="section-shell about-grid">
+          <div class="about-heading"><h2>A little about me.</h2></div>
+          <div class="about-copy">
+            <p class="about-lead">
+              Most of my projects start with “I wonder if I could build that.”
+            </p>
+            <p>
+              I’m a Computer Science student at Drexel University. I’m
+              interested in software engineering, embedded systems, FPGA design,
+              and electronics.
+            </p>
+            <p>
+              I like carrying a project all the way from the first sketch to
+              hardware design, programming, prototyping, and testing. Right now
+              most of that time is going into OpenCalc.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-shell skills-section" id="skills">
+        <div class="section-heading compact-heading">
+          <h2>Software &amp; hardware.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <div class="skill-title"><h3>Software</h3></div>
+            <div class="skill-cloud">
+              <span>AWS</span><span>EC2</span><span>Vercel</span
+              ><span>Figma</span><span>Fusion 360</span><span>Arduino</span
+              ><span>MySQL</span><span>Node.js</span><span>Linux</span
+              ><span>Git</span><span>GitHub</span><span>Apache</span
+              ><span>Nginx</span><span>Cloudflare R2</span><span>FreeRTOS</span
+              ><span>ESP-IDF</span><span>KiCad</span><span>EasyEDA</span
+              ><span>FreeCAD</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-title"><h3>Languages</h3></div>
+            <div class="skill-cloud">
+              <span>Python</span><span>JavaScript</span><span>HTML/CSS</span
+              ><span>C</span><span>Swift</span
+              ><span>AArch64 &amp; x86 Assembly</span><span>Arduino C++</span
+              ><span>SQL</span><span>Java</span><span>Bash</span
+              ><span>SystemVerilog, currently learning</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-title"><h3>Hardware</h3></div>
+            <div class="skill-cloud">
+              <span>Arduino</span><span>ESP32</span><span>Raspberry Pi</span
+              ><span>DigiSpark</span><span>ATtiny85</span><span>Soldering</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-title"><h3>Interests</h3></div>
+            <div class="skill-cloud">
+              <span>Embedded Systems</span><span>PCB Design</span
+              ><span>FPGA Programming, currently learning</span
+              ><span>Homelab</span><span>Low-Level Programming</span
+              ><span>Open Source Hardware</span
+              ><span>Full Stack Web Design</span><span>3D Modeling</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="resume-section" id="resume">
+        <div class="section-shell resume-grid">
+          <div class="resume-copy">
+            <h2>Résumé.</h2>
+            <p>Education, experience, projects, and technical skills.</p>
+            <div class="resume-actions">
+              <a class="button-primary" href="./cory-pearl-resume.pdf" download
+                >Download PDF</a
+              ><a
+                class="text-link"
+                href="./cory-pearl-resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                >Open in a new tab</a
+              >
+            </div>
+          </div>
+          <button
+            class="resume-preview"
+            id="resume-open"
+            aria-haspopup="dialog"
+            aria-controls="resume-dialog"
+          >
+            <img
+              src="./assets/cory-pearl-resume.png"
+              alt="Preview of Cory Pearl's résumé"
+            /><span>Click to preview</span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <dialog
+      class="project-dialog"
+      id="project-dialog"
+      aria-labelledby="project-dialog-title"
+    >
+      <div class="project-dialog-shell">
+        <button
+          class="project-dialog-close"
+          id="project-dialog-close"
+          type="button"
+          aria-label="Close project details"
+        >
+          ×
+        </button>
+        <div class="project-dialog-layout">
+          <div class="project-dialog-media"></div>
+          <div class="project-dialog-copy"></div>
+        </div>
+      </div>
+    </dialog>
+    <dialog
+      class="resume-dialog"
+      id="resume-dialog"
+      aria-labelledby="resume-title"
+    >
+      <div class="dialog-bar">
+        <h2 id="resume-title">Cory Pearl: Résumé</h2>
+        <div>
+          <a href="./cory-pearl-resume.pdf" download>Download</a
+          ><button id="resume-close" aria-label="Close résumé preview">
+            ×
+          </button>
+        </div>
+      </div>
+      <object
+        data="./cory-pearl-resume.pdf"
+        type="application/pdf"
+        aria-label="Cory Pearl résumé PDF"
+      >
+        <div class="pdf-fallback">
+          <p>Your browser can’t display this PDF inline.</p>
+          <a href="./cory-pearl-resume.pdf" target="_blank" rel="noreferrer"
+            >Open the résumé</a
+          >
+        </div>
+      </object>
+    </dialog>
+    <footer id="contact">
+      <div class="section-shell footer-grid">
+        <div>
+          <h2>Want to talk?</h2>
+          <p class="footer-note">
+            I’m always interested in meeting people who like building things.
+          </p>
+        </div>
+        <div class="contact-links">
+          <div class="contact-row">
+            <a href="mailto:cory.pearl99@gmail.com"
+              ><span>Email</span><strong>cory.pearl99@gmail.com</strong></a
+            ><button
+              class="copy-contact"
+              type="button"
+              data-copy="cory.pearl99@gmail.com"
+              aria-label="Copy email address"
+            >
+              <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="8" y="8" width="11" height="11" rx="2"></rect>
+                <path
+                  d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"
+                ></path></svg
+              ><svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m5 12 4 4L19 6"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="contact-row">
+            <a
+              href="https://github.com/CoryPearl"
+              target="_blank"
+              rel="noreferrer"
+              ><span>GitHub</span><strong>@CoryPearl</strong></a
+            ><button
+              class="copy-contact"
+              type="button"
+              data-copy="https://github.com/CoryPearl"
+              aria-label="Copy GitHub link"
+            >
+              <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="8" y="8" width="11" height="11" rx="2"></rect>
+                <path
+                  d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"
+                ></path></svg
+              ><svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m5 12 4 4L19 6"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="contact-row">
+            <a
+              href="https://linkedin.com/in/cory-pearl"
+              target="_blank"
+              rel="noreferrer"
+              ><span>LinkedIn</span><strong>/in/cory-pearl</strong></a
+            ><button
+              class="copy-contact"
+              type="button"
+              data-copy="https://linkedin.com/in/cory-pearl"
+              aria-label="Copy LinkedIn link"
+            >
+              <svg class="copy-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="8" y="8" width="11" height="11" rx="2"></rect>
+                <path
+                  d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"
+                ></path></svg
+              ><svg class="check-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m5 12 4 4L19 6"></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom section-shell">
+        <span>© 2026 Cory Pearl</span><span>Philadelphia, PA</span>
+      </div>
+    </footer>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
