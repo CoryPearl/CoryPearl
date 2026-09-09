@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="1200" height="690"
+viewBox="0 0 1200 690"
+role="img" aria-labelledby="title desc">
+<title id="title">Cory Pearl GitHub profile terminal</title>
+<desc id="desc">Dark terminal profile with PCB ASCII art, Cory Pearl ASCII lettering, skills and GitHub statistics.</desc>
+<style>
+.bg{fill:#0d1117}
+text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;font-variant-ligatures:none}
+.ascii{fill:#c9d1d9}
+.ascii2{fill:#8b949e}
+.head{fill:#f0883e;font-weight:700}
+.val{fill:#79c0ff}
+.green{fill:#7ee787}
+.muted{fill:#8b949e}
+.body{fill:#c9d1d9}
+.rule{stroke:#30363d;stroke-width:1}
+</style>
+<rect class="bg" width="1200" height="690" rx="10"/>
+<text x="34" y="18" class="ascii2" font-size="7.8" xml:space="preserve"><tspan x="34" dy="0">                    +-------------------------------------------------------------+</tspan><tspan x="34" dy="9.2">                    | o                                                       o   |</tspan><tspan x="34" dy="9.2">                    |                                                             |</tspan><tspan x="34" dy="9.2">                    |  J1 USB-C         C1   C2        U3 3V3 REG                 |</tspan><tspan x="34" dy="9.2">                    |  +--------+       ||   ||       +---------+                 |</tspan><tspan x="34" dy="9.2">                    |  | V D+ D-|---+---||---||-------| IN  OUT |----+            |</tspan><tspan x="34" dy="9.2">                    |  |   GND  |---+-----------------|   GND   |    |            |</tspan><tspan x="34" dy="9.2">                    |  +--------+   |                 +---------+    |            |</tspan><tspan x="34" dy="9.2">                    |               |                                |            |</tspan><tspan x="34" dy="9.2">                    |       R1      R2        +-------------------+   |           |</tspan><tspan x="34" dy="9.2">                    |  +---/\/\----/\/\-------|                   |---+---+       |</tspan><tspan x="34" dy="9.2">                    |  |                       |     ESP32-S3      |       |      |</tspan><tspan x="34" dy="9.2">                    |  |   +-------------------|                   |---+   |      |</tspan><tspan x="34" dy="9.2">                    |  |   |                   +--+--+--+--+--+---+   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |   |                      |  |  |  |  |       |   |       |</tspan><tspan x="34" dy="9.2">                    |  |   +----------+-----------+  |  |  |  +---+   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |              |              |  |  |      |   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |        +-----+-----+        |  |  +--+   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |        |  FLASH   |        |  |     |   |   |   |        |</tspan><tspan x="34" dy="9.2">                    |  |        |  16 MB   |        |  |     |   |   |   |        |</tspan><tspan x="34" dy="9.2">                    |  |        +-----+-----+        |  |     |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |              |              |  |     |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |  |   +----------+---+      +---+--+--+  |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |  +---| AUDIO AMP    |      | LCD IF  |  |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |      +------+-------+      +----+----+  |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |             |                   |       |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |         +---+---+           +---+---+   |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |         | SPKR  |           | FPC18 |   |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |         +-------+           +-------+   |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |                                         |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |   SW1 RESET       LED1        J2 GPIO   |   |   |   |       |</tspan><tspan x="34" dy="9.2">                    |   +-------+       |&gt;|         +---------+---+---+---+       |</tspan><tspan x="34" dy="9.2">                    |---| RESET |---+---/\/\--------| o o o o o o o o o |         |</tspan><tspan x="34" dy="9.2">                    |   +-------+   |    R3         +-------------------+         |</tspan><tspan x="34" dy="9.2">                    |               |                                             |</tspan><tspan x="34" dy="9.2">                    |   GND PLANE ---+-----------------------------------------.  |</tspan><tspan x="34" dy="9.2">                    |                                                        |    |</tspan><tspan x="34" dy="9.2">                    | o                                                       o   |</tspan><tspan x="34" dy="9.2">                    +-------------------------------------------------------------+</tspan></text>
+<text x="156" y="395" class="ascii" font-size="9.2" xml:space="preserve"><tspan x="156" dy="0">  ______                                      </tspan><tspan x="156" dy="12.0"> /      \                                     </tspan><tspan x="156" dy="12.0">|  $$$$$$\  ______    ______   __    __       </tspan><tspan x="156" dy="12.0">| $$   \$$ /      \  /      \ |  \  |  \      </tspan><tspan x="156" dy="12.0">| $$      |  $$$$$$\|  $$$$$$\| $$  | $$      </tspan><tspan x="156" dy="12.0">| $$   __ | $$  | $$| $$   \$$| $$  | $$      </tspan><tspan x="156" dy="12.0">| $$__/  \| $$__/ $$| $$      | $$__/ $$      </tspan><tspan x="156" dy="12.0"> \$$    $$ \$$    $$| $$       \$$    $$      </tspan><tspan x="156" dy="12.0">  \$$$$$$   \$$$$$$  \$$       _\$$$$$$$      </tspan><tspan x="156" dy="12.0">                              |  \__| $$      </tspan><tspan x="156" dy="12.0">                               \$$    $$      </tspan><tspan x="156" dy="12.0">                                \$$$$$$       </tspan><tspan x="156" dy="12.0"> _______                                 __   </tspan><tspan x="156" dy="12.0">|       \                               |  \  </tspan><tspan x="156" dy="12.0">| $$$$$$$\  ______    ______    ______  | $$  </tspan><tspan x="156" dy="12.0">| $$__/ $$ /      \  |      \  /      \ | $$  </tspan><tspan x="156" dy="12.0">| $$    $$|  $$$$$$\  \$$$$$$\|  $$$$$$\| $$  </tspan><tspan x="156" dy="12.0">| $$$$$$$ | $$    $$ /      $$| $$   \$$| $$  </tspan><tspan x="156" dy="12.0">| $$      | $$$$$$$$|  $$$$$$$| $$      | $$  </tspan><tspan x="156" dy="12.0">| $$       \$$     \ \$$    $$| $$      | $$  </tspan><tspan x="156" dy="12.0"> \$$        \$$$$$$$  \$$$$$$$ \$$       \$$  </tspan></text>
+<text x="590" y="45" font-size="18" font-weight="700"><tspan class="green">corypearl</tspan><tspan class="muted">@</tspan><tspan class="val">github</tspan></text>
+<line class="rule" x1="590" y1="60" x2="1160" y2="60"/>
+<text x="590" y="92" class="head" font-size="14">- Software</text>
+<line class="rule" x1="680" y1="87" x2="1160" y2="87"/>
+<text x="607" y="119" class="body" font-size="12.3">AWS • EC2 • Vercel • Figma • Fusion 360 • Arduino • MySQL</text>
+<text x="607" y="141" class="body" font-size="12.3">Node.js • Linux • Excel • Git • GitHub • Apache • Nginx</text>
+<text x="607" y="163" class="body" font-size="12.3">Canva • Cloudflare R2 • macOS • Linux CLI • FreeRTOS</text>
+<text x="607" y="185" class="body" font-size="12.3">ESP-IDF • KiCad • EasyEDA • FreeCAD</text>
+<text x="590" y="226" class="head" font-size="14">- Languages</text>
+<line class="rule" x1="700" y1="221" x2="1160" y2="221"/>
+<text x="607" y="253" class="body" font-size="12.3">Python • JavaScript • HTML/CSS • C • Swift</text>
+<text x="607" y="275" class="body" font-size="12.3">AArch64 &amp; x86 Assembly • Arduino C++ • SQL • Java • Bash</text>
+<text x="607" y="297" class="body" font-size="12.3">System Verilog</text>
+<text x="590" y="338" class="head" font-size="14">- Hardware</text>
+<line class="rule" x1="685" y1="333" x2="1160" y2="333"/>
+<text x="607" y="365" class="body" font-size="12.3">Arduino / Arduino Nano • ESP32 • Raspberry Pi • DigiSpark</text>
+<text x="607" y="387" class="body" font-size="12.3">ATtiny85 • Soldering</text>
+<text x="590" y="428" class="head" font-size="14">- GitHub Stats</text>
+<line class="rule" x1="715" y1="423" x2="1160" y2="423"/>
+<text x="607" y="458" font-size="12.5"><tspan class="head">● Repos</tspan><tspan class="muted"> ............ </tspan><tspan id="repo_data" class="val">29</tspan></text>
+<text x="607" y="484" font-size="12.5"><tspan class="head">● Commits</tspan><tspan class="muted"> .......... </tspan><tspan id="commit_data" class="val">500+</tspan></text>
+<text x="590" y="526" class="head" font-size="14">- Focus</text>
+<line class="rule" x1="650" y1="521" x2="1160" y2="521"/>
+<text x="607" y="553" class="body" font-size="12.3">Embedded Systems • PCB Design • Homelab</text>
+<text x="607" y="575" class="body" font-size="12.3">Low-Level Programming • Open Source Hardware</text>
+<text x="607" y="597" class="body" font-size="12.3">Full Stack Web Design • 3D Modeling</text>
+<line class="rule" x1="590" y1="626" x2="1160" y2="626"/>
+<text x="590" y="656" class="green" font-size="12.5">&gt; Building cool things. Learning constantly. Sharing openly.</text>
+</svg>
