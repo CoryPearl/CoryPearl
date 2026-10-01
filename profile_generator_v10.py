@@ -22,7 +22,7 @@ SOFTWARE = [
     "AWS", "EC2", "Vercel", "Figma", "Fusion 360", "Arduino",
     "MySQL", "Node.js", "Linux", "Excel", "Git", "GitHub",
     "Apache", "Nginx", "Canva", "Cloudflare R2", "macOS",
-    "Linux CLI", "FreeRTOS", "ESP-IDF", "KiCad", "EasyEDA", "FreeCAD"
+    "Linux CLI", "FreeRTOS", "ESP-IDF", "KiCad", "EasyEDA", "FreeCAD", "Altium"
 ]
 
 LANGUAGES = [
@@ -33,7 +33,7 @@ LANGUAGES = [
 
 HARDWARE = [
     "Arduino / Arduino Nano", "ESP32", "Raspberry Pi",
-    "DigiSpark", "ATtiny85", "Soldering"
+    "DigiSpark", "ATtiny85", "Soldering", "Teensy 4.1"
 ]
 
 FOCUS = [

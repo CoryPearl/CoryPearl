@@ -26,7 +26,7 @@ text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;fon
 <text x="607" y="119" class="body" font-size="12.3">AWS • EC2 • Vercel • Figma • Fusion 360 • Arduino • MySQL</text>
 <text x="607" y="141" class="body" font-size="12.3">Node.js • Linux • Excel • Git • GitHub • Apache • Nginx</text>
 <text x="607" y="163" class="body" font-size="12.3">Canva • Cloudflare R2 • macOS • Linux CLI • FreeRTOS</text>
-<text x="607" y="185" class="body" font-size="12.3">ESP-IDF • KiCad • EasyEDA • FreeCAD</text>
+<text x="607" y="185" class="body" font-size="12.3">ESP-IDF • KiCad • EasyEDA • FreeCAD • Altium</text>
 <text x="590" y="226" class="head" font-size="14">- Languages</text>
 <line class="rule" x1="700" y1="221" x2="1160" y2="221"/>
 <text x="607" y="253" class="body" font-size="12.3">Python • JavaScript • HTML/CSS • C • Swift</text>
@@ -35,7 +35,7 @@ text{font-family:"SFMono-Regular",Consolas,"Liberation Mono",Menlo,monospace;fon
 <text x="590" y="338" class="head" font-size="14">- Hardware</text>
 <line class="rule" x1="685" y1="333" x2="1160" y2="333"/>
 <text x="607" y="365" class="body" font-size="12.3">Arduino / Arduino Nano • ESP32 • Raspberry Pi • DigiSpark</text>
-<text x="607" y="387" class="body" font-size="12.3">ATtiny85 • Soldering</text>
+<text x="607" y="387" class="body" font-size="12.3">ATtiny85 • Soldering • Teensy 4.1</text>
 <text x="590" y="428" class="head" font-size="14">- GitHub Stats</text>
 <line class="rule" x1="715" y1="423" x2="1160" y2="423"/>
 <text x="607" y="458" font-size="12.5"><tspan class="head">● Repos</tspan><tspan class="muted"> ............ </tspan><tspan id="repo_data" class="val">29</tspan></text>
